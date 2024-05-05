@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var addCmd = &cobra.Command{
+var AddCmd = &cobra.Command{
 	Use:   "add [files]",
 	Short: "Add file contents to the index.",
 	Args:  cobra.MinimumNArgs(1),
@@ -15,3 +15,4 @@ var addCmd = &cobra.Command{
 		// 调用实现添加文件到暂存区的函数
 	},
 }
+

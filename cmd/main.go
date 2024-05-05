@@ -2,15 +2,16 @@ package main
 
 import (
 	"fmt"
+	"os"
+
 	"github.com/Slone123c/go_git/internal"
 	"github.com/spf13/cobra"
-	"os"
 )
 
 func main() {
 	var rootCmd = &cobra.Command{Use: "gogit"}
 	rootCmd.AddCommand(
-		internal.addCmd,
+		internal.AddCmd,
 	// addCmd,
 	// catFileCmd,
 	// checkIgnoreCmd,
