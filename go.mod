@@ -1,4 +1,4 @@
-module module github.com/Slone123c/go_git
+module github.com/Slone123c/go_git
 
 go 1.21.5
 
