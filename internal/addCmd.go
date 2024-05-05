@@ -15,4 +15,3 @@ var AddCmd = &cobra.Command{
 		// 调用实现添加文件到暂存区的函数
 	},
 }
-
